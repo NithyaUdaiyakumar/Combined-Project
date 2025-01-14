@@ -150,16 +150,16 @@ RectTransform:
   m_GameObject: {fileID: 142307623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.9041123, y: 2.9041123, z: 2.9041123}
+  m_LocalScale: {x: 3.1506715, y: 3.1506715, z: 3.1506715}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 992157114}
   m_Father: {fileID: 355846649}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5223435, y: 0.81636274}
+  m_AnchorMin: {x: 0.5124043, y: 0.81636274}
   m_AnchorMax: {x: 0.712, y: 0.9097721}
-  m_AnchoredPosition: {x: -8, y: -10}
-  m_SizeDelta: {x: -298, y: -72}
+  m_AnchoredPosition: {x: 4, y: -10}
+  m_SizeDelta: {x: -322, y: -72}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &142307625
 MonoBehaviour:
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: UMBRELLA
+  m_text: BALLOON
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d0da914815bec164e83949a1e272e892, type: 2}
   m_sharedMaterial: {fileID: 5169204119997526175, guid: d0da914815bec164e83949a1e272e892, type: 2}
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1237858712}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 10
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -2082,6 +2082,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237858711}
   m_CullTransparentMesh: 1
+--- !u!1 &1255255672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1255255674}
+  m_Layer: 0
+  m_Name: Sizechanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1255255674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255255672}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 545.6866, y: 185.21098, z: -14.984342}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1278304754
 GameObject:
   m_ObjectHideFlags: 0
@@ -2113,7 +2144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dropdown: {fileID: 1308284257}
   prefabs:
-  - {fileID: 8003465810205734773, guid: 9c041264a61d26d4a9f525460c29e083, type: 3}
+  - {fileID: 5100101893998937639, guid: b88b2552063376c4684abcd956dad65d, type: 3}
   - {fileID: 5838203420632166130, guid: c6ced068db39e554bb82b13e0731bb7f, type: 3}
   - {fileID: 5821234817473245064, guid: 94031464955725341a122496a950c1a8, type: 3}
   spawnButton: {fileID: 1673352952}
@@ -2298,7 +2329,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: UMBRELLA
+    - m_Text: BALLOON
       m_Image: {fileID: 0}
     - m_Text: CUP
       m_Image: {fileID: 0}
@@ -3281,3 +3312,4 @@ SceneRoots:
   - {fileID: 355846649}
   - {fileID: 1231129083}
   - {fileID: 1278304756}
+  - {fileID: 1255255674}
